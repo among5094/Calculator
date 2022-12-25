@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--계산기 그룹-->
+<div class="calculator"> 
+    <form name="form">
+
+        <!--계산의 결과값이 뜨는 화면-->
+        <input type="text" name="output"> 
+
+        <!--  계산기의 버튼 부분  -->
+        <input type="button" class="clear" value="C"> <!--clear버튼 부분 -->
+        <input type="button" class="operatior" value="/">
+        <input type="button" value="1">
+        <input type="button" value="2">
+        <input type="button" value="3">
+        <input type="button" class="operatior" value="*">
+        <input type="button" value="4">
+        <input type="button" value="5">
+        <input type="button" value="6">
+        <input type="button" class="operatior" value="+">
+        <input type="button" value="7">
+        <input type="button" value="8">
+        <input type="button" value="9">
+        <input type="button" class="operatior" value="-"> <!--마이너스 부분-->
+        <input type="button" class="dot" value=".">
+        <input type="button" value="0">
+        <input type="button" class="operatior result" value="="> 
+
+    </form>
+</div>
+</body>
+</html>
+<!-- 
+    
+clear는 빨간색 버튼 부분    
+operatior는 주황색 영역 부분
+근데, =부분에 class="operatior result"인 이유는 등호만 한 칸 더 넓기 때문에 따로 지정해주어야 된다.
+.은 초록색 버튼 부분
+-->
+
