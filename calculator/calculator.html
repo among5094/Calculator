@@ -20,20 +20,20 @@
         <!-- clear버튼은 화면에 보이는 부분을 전부 초기화 해주는 역할을 하니까 복합연산자(+=)가 있으면 안된다.
             그냥 빈값으로 두면 Clear한 것 같은 효과를 줄 수 있다. -->
         <input type="button" class="operatior" value="/"  onclick="document.form.output.value+='/' ">
-        <input type="button" value="1" onclick="document.form.output.value+='1' "> <!--onclick속성을 이용해서 1을 누르면 화면에 1이 나타남-->
-        <input type="button" value="2" onclick="document.form.output.value+='2' ">
-        <input type="button" value="3" onclick="document.form.output.value+='3' ">
+        <input type="button" value="1" id="but_1" onclick="document.form.output.value+='1' "> <!--onclick속성을 이용해서 1을 누르면 화면에 1이 나타남-->
+        <input type="button" value="2" id="but_2" onclick="document.form.output.value+='2' ">
+        <input type="button" value="3" id="but_3" onclick="document.form.output.value+='3' ">
         <input type="button" class="operatior" value="*" onclick="document.form.output.value+='*' ">
-        <input type="button" value="4"  onclick="document.form.output.value+='4' ">
-        <input type="button" value="5"  onclick="document.form.output.value+='5' ">
-        <input type="button" value="6"  onclick="document.form.output.value+='6' ">
+        <input type="button" value="4" id="but_4" onclick="document.form.output.value+='4' ">
+        <input type="button" value="5" id="but_5" onclick="document.form.output.value+='5' ">
+        <input type="button" value="6" id="but_6" onclick="document.form.output.value+='6' ">
         <input type="button" class="operatior" value="+" onclick="document.form.output.value+='+' ">
-        <input type="button" value="7" onclick="document.form.output.value+='7'">
-        <input type="button" value="8" onclick="document.form.output.value+='8' ">
-        <input type="button" value="9"  onclick="document.form.output.value+='9' ">
+        <input type="button" value="7" id="but_7" onclick="document.form.output.value+='7'">
+        <input type="button" value="8" id="but_8"onclick="document.form.output.value+='8' ">
+        <input type="button" value="9" id="but_9" onclick="document.form.output.value+='9' ">
         <input type="button" class="operatior" value="-"  onclick="document.form.output.value+='-' "> <!--마이너스 부분-->
-        <input type="button" class="dot" value="."  onclick="document.form.output.value+='.' ">
-        <input type="button" value="0"  onclick="document.form.output.value+='0'">
+        <input type="button" class="dot" value="." src="dot버튼쿼카.jpg" onclick="document.form.output.value+='.' ">
+        <input type="button" value="0" id="but_0" onclick="document.form.output.value+='0'">
 
         <!-- 계산의 결과를 나타내주는 부분 -->
         <input type="button" class="operatior result" value="="  onclick="document.form.output.value=eval(document.form.output.value) ">
