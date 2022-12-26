@@ -13,7 +13,8 @@
 /* body내의 선택자 */
 body {
     background-color: pink;
-
+    
+    /*display에 대한 부분 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,8 +25,8 @@ body {
 .calculator {
     
     width: 287px; /*총 테두리와 패딩, 버튼 전부 다 더한 값*/
-    border: 1px solid palevioletred; /*계산기의 테두리*/
-    background-color: #ccc; /* 계산기의 배경 색상: 회색으로 */
+    border: 1px solid rgb(226, 107, 147); /*계산기의 테두리*/
+    background-color: rgb(241, 134, 134); /* 계산기의 배경 색상: 회색으로 */
     padding: 5px; /**/
     
 }
@@ -70,7 +71,7 @@ body {
 /* 주황색 버튼 영역부분 */
 /* .calculator의 form태그 밑에 있는 .operatior */
 .calculator form .operatior {
-    background-color: orange;
+    background-color: rgb(212, 121, 212);
 }
 
 /* 초록색 버튼 영역부분 */
@@ -96,3 +97,8 @@ body {
 .calculator form .result {
     grid-column: span 2;
 }
+
+/*
+    색조합을 찾아주는 사이트
+    링크: https://coolors.co/palettes/trending
+*/

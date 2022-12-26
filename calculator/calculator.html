@@ -16,24 +16,29 @@
         <input type="text" name="output" readonly> <!--readonly -> 계산 결과가 출력되는 곳이니까 입력 불가능하게 하려고--> 
 
         <!--  계산기의 버튼 부분  -->
-        <input type="button" class="clear" value="C"> <!--clear버튼 부분 -->
-        <input type="button" class="operatior" value="/">
-        <input type="button" value="1" onclick=""> <!-- 계산기 기능 추가할 수 있게 자바스크립트로 추가하는 부분부터 다시! -->
-        <input type="button" value="2">
-        <input type="button" value="3">
-        <input type="button" class="operatior" value="*">
-        <input type="button" value="4">
-        <input type="button" value="5">
-        <input type="button" value="6">
-        <input type="button" class="operatior" value="+">
-        <input type="button" value="7">
-        <input type="button" value="8">
-        <input type="button" value="9">
-        <input type="button" class="operatior" value="-"> <!--마이너스 부분-->
-        <input type="button" class="dot" value=".">
-        <input type="button" value="0">
-        <input type="button" class="operatior result" value="="> 
+        <input type="button" class="clear" value="C"  onclick="document.form.output.value='' "> <!--clear버튼 부분 -->
+        <!-- clear버튼은 화면에 보이는 부분을 전부 초기화 해주는 역할을 하니까 복합연산자(+=)가 있으면 안된다.
+            그냥 빈값으로 두면 Clear한 것 같은 효과를 줄 수 있다. -->
+        <input type="button" class="operatior" value="/"  onclick="document.form.output.value+='/' ">
+        <input type="button" value="1" onclick="document.form.output.value+='1' "> <!--onclick속성을 이용해서 1을 누르면 화면에 1이 나타남-->
+        <input type="button" value="2" onclick="document.form.output.value+='2' ">
+        <input type="button" value="3" onclick="document.form.output.value+='3' ">
+        <input type="button" class="operatior" value="*" onclick="document.form.output.value+='*' ">
+        <input type="button" value="4"  onclick="document.form.output.value+='4' ">
+        <input type="button" value="5"  onclick="document.form.output.value+='5' ">
+        <input type="button" value="6"  onclick="document.form.output.value+='6' ">
+        <input type="button" class="operatior" value="+" onclick="document.form.output.value+='+' ">
+        <input type="button" value="7" onclick="document.form.output.value+='7'">
+        <input type="button" value="8" onclick="document.form.output.value+='8' ">
+        <input type="button" value="9"  onclick="document.form.output.value+='9' ">
+        <input type="button" class="operatior" value="-"  onclick="document.form.output.value+='-' "> <!--마이너스 부분-->
+        <input type="button" class="dot" value="."  onclick="document.form.output.value+='.' ">
+        <input type="button" value="0"  onclick="document.form.output.value+='0'">
 
+        <!-- 계산의 결과를 나타내주는 부분 -->
+        <input type="button" class="operatior result" value="="  onclick="document.form.output.value=eval(document.form.output.value) ">
+        <!-- result 부분은 결과가 나와야 하는 부분이니까 복합연산자(+=)를 사용하면 안된다 -->
+        <!--eval함수 : 괄호 안에 있는 것을 실제 수식처럼 계산할 수 있게 해주는 메소드이다. -->
     </form>
 </div>
 </body>
@@ -44,5 +49,10 @@ clear는 빨간색 버튼 부분
 operatior는 주황색 영역 부분
 근데, =부분에 class="operatior result"인 이유는 등호만 한 칸 더 넓기 때문에 따로 지정해주어야 된다.
 .은 초록색 버튼 부분
+-->
+
+<!--
+    색조합을 찾아주는 사이트
+    링크: https://coolors.co/palettes/trending
 -->
 
