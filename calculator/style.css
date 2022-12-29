@@ -1,4 +1,5 @@
 
+
 /* 전체 선택자 */
 * {
     margin:0;
@@ -11,14 +12,45 @@
 }
 
 /* body내의 선택자 */
+
 body {
     background-color: ivory;
+    /* display에 대한 부분 */
+    display: flex;
+    flex-direction: column; 
+    /*
     
-    /*display에 대한 부분 */
+    */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+} 
+
+/*
+#calculator {
+    background-color: ivory;
+    /*display에 대한 부분 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+*/
+
+/* Rainbow Calculator */
+h1 {
+    margin-bottom: 150px;
+    font-size:2em;
+    font:bold 3.5vw/1.6 'Signika', sans-serif; 
+    user-select:none;
+}
+
+h1 span { display:inline-block; animation:float .2s ease-in-out infinite; }
+ @keyframes float {
+  0%,100%{ transform:none; }
+  33%{ transform:translateY(-1px) rotate(-2deg); }
+  66%{ transform:translateY(1px) rotate(2deg); }
 }
 
 /* div로 묶은 계산기의 class를 지정해주는 부분 */
@@ -78,6 +110,7 @@ body {
 /* .calculator의 form태그 밑에 있는 .dot */
 .calculator form .dot {
     background-color: rgb(255, 255, 255);
+    
 }
 
 /*.calculator form 안에 있는 input type=text 가 들어간 부분을 적용해주는 것*/
