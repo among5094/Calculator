@@ -2,6 +2,12 @@
 
 현재 모습(이미지는 계속 업데이트 할 예정...)
 
+<!--
+영상
+https://user-images.githubusercontent.com/106166621/209961887-7e50c2b2-3ed5-449a-b179-a1a33ced14c8.mp4
+
+-->
+
 ![화면 캡처 2022-12-29 220142](https://user-images.githubusercontent.com/106166621/209954735-3a1a089b-ec11-467d-9474-33ae4bdc3d49.png)
 
 
@@ -30,7 +36,8 @@ body안에 공간을 나눠주다보니 h1로 글자를 넣어주니까 글자�
 그래서 body에 flex-direction: column; 코드를 추가해서 문제를 해결했습니다 <br>
 이 코드의 뜻은 공간을 나눌 방향을 (flex-direction)을 세로로 쌓아주듯이 나눈다는 의미입니다 <br>
 
+![화면 캡처 2022-12-29 220142](https://user-images.githubusercontent.com/106166621/209954735-3a1a089b-ec11-467d-9474-33ae4bdc3d49.png)
 
-
+이렇게 올바르게 글자가 올라간 모습입니다😊 <br><br><br><br>
 
 
