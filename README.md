@@ -1,44 +1,48 @@
 # Rainbow Calculator🌈
 
-현재 모습(이미지는 계속 업데이트 할 예정...)
-https://rainbowcalcultor5094.netlify.app/
+<br>
 
-<!--
-영상
-https://user-images.githubusercontent.com/106166621/209961887-7e50c2b2-3ed5-449a-b179-a1a33ced14c8.mp4
+### 완성된 모습 → 링크와 영상
 
--->
+영상과 링크를 업로드 했습니다. <br>
+👉  https://rainbowcalcultor5094.netlify.app/ 👈 <br><br>
 
-![화면 캡처 2022-12-29 220142](https://user-images.githubusercontent.com/106166621/209954735-3a1a089b-ec11-467d-9474-33ae4bdc3d49.png)
+https://user-images.githubusercontent.com/106166621/210219788-5f0f51e4-db92-4d26-a2e0-e1cd198f3a8b.mp4
 
 
 <br><br>
-기본적인 계산을 할 수 있는 무지개 계산기 입니다! <br>
-HTML과 CSS를 사용해보았습니다.
-최종 목표는 이 계산기를 어플로 내보는 것입니다. <br>
+*****
+<br>
+
+#  만든 과정에 대해서
+
+웹페이지를 모두 볼 수 있게 만들었습니다. <br>
+제 컴퓨터로 서버를 24시간 열 수 없기 때문에 웹 호스팅 제공 업체 Netlify를 이용했습니다.<br>
+서버에 관련된 간단한 설명을 이미지로 제작해보았습니다. <br>
+
+<img src="https://user-images.githubusercontent.com/106166621/210222856-f34b30e8-c248-402c-a3a1-4db1a6e18995.jpg" width="600" height="700" >
+
+<br><br>
+*****
+<br>
+
+#  모바일 어플로 만들어 보다!
+
+아래의 이 사진은 제가 직접 제 핸드로 APK파일을 다운했을 때 핸드폰에서 보이는 어플의 모습입니다.<br>
+![모바일_무지개계산기_](https://user-images.githubusercontent.com/106166621/210224251-fb3564af-e58a-49e5-a3be-3cd091678cd2.jpg)
+
+아래의 이 사진은 핸드폰으로 실행시켜본 모습입니다.<br>
+![어플_들어가본모습](https://user-images.githubusercontent.com/106166621/210224256-97c08e8c-a879-4221-be01-8a76fd11c179.jpg)
+
+<br><br>
+*****
+<br>
+
+#  구글스토어에 출시해보기!
+
+현재(23년 01월 02일) 심사중입니다. 출시 비용은 44,000원 들었습니다. <br>
+![KakaoTalk_20230102_202613688](https://user-images.githubusercontent.com/106166621/210225152-9f39e479-99ad-470a-9128-0f752dc0a1e5.jpg)
 
 
-<img src="https://user-images.githubusercontent.com/106166621/209563554-fd499c4d-6039-4722-b0db-d6dc9b7a2fb2.png" width="400" height="450"> <br>
-
-
-우선 유튜브로 기본적인 계산기 만드는 법을 보고 제 입맛대로 색상과 디자인을 추가했습니다. <br>
-이 상태로만 두기에는 심심해서 움직이는 글씨를 넣어보았습니다.  <br><br>
-
-**그런데 중간에 문제가 생겼습니다**
-
-<img src= https://user-images.githubusercontent.com/106166621/209953331-d2f715fe-48c2-452e-baa7-09de7f86a35f.png width="900" height="300"> <br>
-
-body 안에 display: flex 를 해주었습니다 <br>
-body안에 공간을 나눠주다보니 h1로 글자를 넣어주니까 글자가 가운데로 가는 ~~문제~~가 생겼습니다. 아래 사진처럼요ㅠㅠ😂 <br>
-
-<img src= https://user-images.githubusercontent.com/106166621/209953680-79c73a69-2b2f-4146-b92e-c5f09e7975ae.png width="700" height="300"> <br>
-
-<br> <!--문제  -->
-그래서 body에 flex-direction: column; 코드를 추가해서 문제를 해결했습니다 <br>
-이 코드의 뜻은 공간을 나눌 방향을 (flex-direction)을 세로로 쌓아주듯이 나눈다는 의미입니다 <br>
-
-![화면 캡처 2022-12-29 220142](https://user-images.githubusercontent.com/106166621/209954735-3a1a089b-ec11-467d-9474-33ae4bdc3d49.png)
-
-이렇게 올바르게 글자가 올라간 모습입니다😊 <br><br><br><br>
 
 
