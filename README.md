@@ -46,6 +46,7 @@ https://user-images.githubusercontent.com/106166621/210322718-d3ff488e-e021-4acc
 *****
 <br>
 
+<!-- 
 #  구글스토어에 출시해보기!
 
 
@@ -56,13 +57,12 @@ https://user-images.githubusercontent.com/106166621/210322718-d3ff488e-e021-4acc
 <img src="https://user-images.githubusercontent.com/106166621/210318675-0f7bbb65-ecce-47dc-9617-4306e3f93a43.png" width="700" height="500" >
 
 
-<br><br>
-
-
 현재(23년 01월 02일) 어플 출시 심사중입니다.<br>
 저는 SWING2APP이라는 어플 제작 업체를 썼기 때문에 **출시 비용은 44,000원** 들었습니다. <br>
 플레이스토어에 출시하려면 10,000원 앱스토어에 출시하려면 20,000원 추가 비용이 들었습니다.<br>
 저는 안드로이드 이용자이고 상업적인 목적으로 어플을 제작한 것이 아니라서 플레이스토어에만 출시되게 했습니다.
+
+-->
 
 <br><br>
 
@@ -86,5 +86,7 @@ https://user-images.githubusercontent.com/106166621/210322718-d3ff488e-e021-4acc
 
 총 개발 비용: **77,000원** <br>
 들인 시간: 대략 2주정도..? <br>
-느낀 점: <br>
+느낀 점: 
+
+<br>
 
