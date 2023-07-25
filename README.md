@@ -34,12 +34,9 @@ https://github.com/among5094/Calculator/assets/106166621/ec675ebe-12b9-431e-80c7
   아래의 이 사진은 제가 직접 제 핸드로 APK파일을 다운했을 때 핸드폰에서 보이는 어플의 모습입니다.
   <br><br>
   
-  <!--모바일 무지개계산기-->
+  모바일 무지개계산기
   <img src="https://user-images.githubusercontent.com/106166621/210224251-fb3564af-e58a-49e5-a3be-3cd091678cd2.jpg" height="600"> <img src="https://user-images.githubusercontent.com/106166621/210224256-97c08e8c-a879-4221-be01-8a76fd11c179.jpg" height="600">
   
-  <br><br>
-  *****
-  <br>
 -->
 
 <!-- 
@@ -62,13 +59,11 @@ https://github.com/among5094/Calculator/assets/106166621/ec675ebe-12b9-431e-80c7
 
 <br><br>
 
-<!-- 스윙투앱개발자화면1 
-  ![스윙투앱개발자화면1](https://user-images.githubusercontent.com/106166621/210320105-7758046a-31f6-40c5-b810-474d47c0dc6c.png)
--->
-<br><br>
-
-<!-- 스윙투앱개발자화면2 
-![개발자화면2](https://user-images.githubusercontent.com/106166621/210320869-3cf5531d-c912-44fe-bd0b-9ef7e5e9adcc.jpg)
+<!--
+  스윙투앱개발자화면1 
+    ![스윙투앱개발자화면1](https://user-images.githubusercontent.com/106166621/210320105-7758046a-31f6-40c5-b810-474d47c0dc6c.png)
+  스윙투앱개발자화면2 
+  ![개발자화면2](https://user-images.githubusercontent.com/106166621/210320869-3cf5531d-c912-44fe-bd0b-9ef7e5e9adcc.jpg)
 -->
 
 <br><br>
