@@ -9,14 +9,7 @@
 
 **글자가 부들부들** 거립니다<br>
 
-https://user-images.githubusercontent.com/106166621/210219788-5f0f51e4-db92-4d26-a2e0-e1cd198f3a8b.mp4
-
-<br><br>
-hover를 이용해서 마우스 커서가 글자 위에 올라가면 **글자와 이모지가 하나씩 점프** 합니다.<br>
-
-https://user-images.githubusercontent.com/106166621/210322718-d3ff488e-e021-4acc-b599-ce573aeb385a.mp4
-
-
+https://github.com/among5094/Calculator/assets/106166621/ec675ebe-12b9-431e-80c7-0acc5d48663a
 
 <br><br>
 *****
@@ -34,17 +27,20 @@ https://user-images.githubusercontent.com/106166621/210322718-d3ff488e-e021-4acc
 *****
 <br>
 
-#  모바일 어플로 만들어 보다!
 
-아래의 이 사진은 제가 직접 제 핸드로 APK파일을 다운했을 때 핸드폰에서 보이는 어플의 모습입니다.
-<br><br>
-
-<!--모바일 무지개계산기-->
-<img src="https://user-images.githubusercontent.com/106166621/210224251-fb3564af-e58a-49e5-a3be-3cd091678cd2.jpg" height="600"> <img src="https://user-images.githubusercontent.com/106166621/210224256-97c08e8c-a879-4221-be01-8a76fd11c179.jpg" height="600">
-
-<br><br>
-*****
-<br>
+<!--
+  #  모바일 어플로 만들어 보다!
+  
+  아래의 이 사진은 제가 직접 제 핸드로 APK파일을 다운했을 때 핸드폰에서 보이는 어플의 모습입니다.
+  <br><br>
+  
+  <!--모바일 무지개계산기-->
+  <img src="https://user-images.githubusercontent.com/106166621/210224251-fb3564af-e58a-49e5-a3be-3cd091678cd2.jpg" height="600"> <img src="https://user-images.githubusercontent.com/106166621/210224256-97c08e8c-a879-4221-be01-8a76fd11c179.jpg" height="600">
+  
+  <br><br>
+  *****
+  <br>
+-->
 
 <!-- 
 #  구글스토어에 출시해보기!
@@ -66,27 +62,28 @@ https://user-images.githubusercontent.com/106166621/210322718-d3ff488e-e021-4acc
 
 <br><br>
 
-<!-- 스윙투앱개발자화면1 -->
-![스윙투앱개발자화면1](https://user-images.githubusercontent.com/106166621/210320105-7758046a-31f6-40c5-b810-474d47c0dc6c.png)
-
+<!-- 스윙투앱개발자화면1 
+  ![스윙투앱개발자화면1](https://user-images.githubusercontent.com/106166621/210320105-7758046a-31f6-40c5-b810-474d47c0dc6c.png)
+-->
 <br><br>
 
-<!-- 스윙투앱개발자화면2 -->
+<!-- 스윙투앱개발자화면2 
 ![개발자화면2](https://user-images.githubusercontent.com/106166621/210320869-3cf5531d-c912-44fe-bd0b-9ef7e5e9adcc.jpg)
-
+-->
 
 <br><br>
+<!--
+  이 모습은 심사중이라는 의미입니다.<br>
+  ![KakaoTalk_20230102_202613688](https://user-images.githubusercontent.com/106166621/210225152-9f39e479-99ad-470a-9128-0f752dc0a1e5.jpg)
+-->
 
-이 모습은 심사중이라는 의미입니다.<br>
-![KakaoTalk_20230102_202613688](https://user-images.githubusercontent.com/106166621/210225152-9f39e479-99ad-470a-9128-0f752dc0a1e5.jpg)
 
-
-
-#  어플을 만들고 나서 느낀점
-
-총 개발 비용: **77,000원** <br>
-들인 시간: 대략 2주정도..? <br>
-느낀 점: 
-
+<!--
+  #  어플을 만들고 나서 느낀점
+  
+  총 개발 비용: **77,000원** <br>
+  들인 시간: 대략 2주정도..? <br>
+  느낀 점: 
+-->
 <br>
 
